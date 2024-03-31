@@ -1,0 +1,63 @@
+/*Style sheet*/
+
+body{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: blueviolet;
+    }
+  }
+  @media only screen and (max-width: 1400px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 1920px) {
+    body {
+      background-color: rgb(128, 98, 199);
+    }
+  }
+
+.digi-input{
+    width: 100%;
+    max-width: fit-content;
+    float: left;
+    padding: 12px 20px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.digi-input-submit{
+    width: 100%;
+    max-width: fit-content;
+    padding: 12px 20px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
