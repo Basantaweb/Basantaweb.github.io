@@ -162,7 +162,7 @@ let localhost = '';
 if(host == '127.0.0.1'){
   localhost = localip+subPath;
 }else{
-  localhost = weBhost+subPath;
+  localhost = weBhost;
 }
 const fetchPromise = fetch(localhost);
 fetchPromise.then(response => {
