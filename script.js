@@ -153,7 +153,7 @@ xhr.send(body);
 // });
 var host = window.location.hostname; 
 var port = window.location.port;
-let weBhost = "https://digiwebcam.in/profiles/public/";
+let weBhost = "https://digiwebcam.in/profiles/public/profile-url/BASANTA/1bbca94a-84f0-4ee0-87df-e26602fa3ad9";
 let localip = "http://localhost:8000/";
 let subPath = "profile-path";
 // console.log(host);
